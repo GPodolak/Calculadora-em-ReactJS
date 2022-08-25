@@ -8,7 +8,7 @@ button{
 }
 
 .backStyle{
-    background-color: black;
+    background-color: #232323;
     border-radius: 1em;
     padding: 1em;
 
@@ -16,4 +16,46 @@ button{
 
 button:hover{
 cursor: pointer;
-};
+}
+
+.Black{
+    background-color: #302E2D;
+    color: #00ED00
+}
+
+.Red{
+    background-color: #302E2D;
+    color: #F6220E;
+    font-style: bold;
+}
+
+.Green{
+    background-color: #00ED00;
+    color: black;
+    font-style: bold;
+    
+}
+.Gray{
+    background-color: #505050;
+    color: whitesmoke;
+}
+
+.Results{
+    color: azure;
+    display: flex;
+    justify-content: right;
+    font-size: 3em;
+    margin:1em;
+}
+
+.Header{
+    font-size: 5em;
+    font-family: Apple Chancery, cursive   ;
+    font-style: bold;
+    color: white;
+    }
+
+body{
+background-image: url("./Imagens/ciudad-minimalista-1024x640.jpg");
+background-size: 1100px 900px
+}
